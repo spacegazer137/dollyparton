@@ -1,0 +1,657 @@
+/* set the colour of the background of the page  */
+body {
+  background-color: #F9F3f2;
+}
+
+.Banner {
+    display: block;
+    width: 85%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* Biblography classes -- Start  */
+.websites{
+  font-size: 1rem;
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  line-height: 1.6;
+  color: #260F26;
+}
+
+.Imagery{
+  font-size: 1rem;
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  line-height: 1.6;
+  color: #260F26;
+}
+
+.References {
+  font-size: 1rem;
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  line-height: 1.6;
+  color: #260F26;
+}
+
+/* Biblography classes -- End  */
+
+
+
+
+/* Banner Image  */
+#Banner {
+  max-width: 100%;
+  height: auto;
+}
+
+/* I am containing all my Navigation elements within the nav-container and then displaying them with flex  */
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  justify-content: center;
+  padding: 0 0 0.5rem 0;
+  overflow: hidden;
+}
+
+/* the first item is my logo which I want to take up 30%  */
+.nav-item1 {
+  flex: 30%;
+  justify-content: flex-start;
+  display: flex;
+}
+
+/* all the rest of the items will be automatically evenly spaced  */
+.nav-item2, .nav-item3, .nav-item4, .nav-item5,
+.nav-item6, .nav-item7, .nav-item8 {
+  flex: auto;
+  justify-content: center;
+  display: flex;
+  padding: 2rem 0 0 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* link items within my navigation  */
+.nav-container a {
+  text-decoration: none;
+  color: #260F26;
+}
+
+.nav-container a:hover {
+  color: #CDB2AB;
+}
+
+/* logo in top left   */
+.nav-item #Logo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 2rem 0;
+}
+
+/* horizontal line used above the footer  */
+hr {
+  width: 30rem;
+}
+
+/* my h1 headings   */
+h1 {
+  padding: 2rem 0 2rem 0rem;
+  font-size: 2rem;
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Avenir", sans-serif;
+  color: #260F26;
+}
+
+/* Keep used on:
+DollyPartonHomepage
+DollyPartonAboutMe
+ */
+.welcome-item p {
+  font-size: 1rem;
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  color: #260F26;
+  padding: 0 0 2rem 0;
+}
+
+/* --------Page - Dolly : Start------------*/
+/* Dolly page is using a grid  */
+.dolly-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 0 4rem 0;
+}
+
+/* Page Dolly - Image   */
+.dolly-item img {
+  padding: 0 0 0 10rem;
+}
+
+/* Page Dolly - paragraph  */
+.dolly-item p {
+  padding: 0 10rem 0 4rem;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  color: #260F26;
+}
+
+/* --------Page - Dolly : End------------*/
+
+/* --------Page - Career : Start------------*/
+/* Page Career - Container for three box images with
+links to sections within webpage  */
+.career-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Page Career - paragraph styling  */
+#careerp {
+  font-size: 1rem;
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  color: #260F26;
+  padding: 2rem 0 2rem 0;
+}
+
+/* Page Career - first section Music
+music-container is the layout of the image and spotify links  */
+.music-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* creating the rounded edges on images */
+img.CareerNavImages {
+  border-radius: 0.5rem;
+}
+
+img.MusicBorder, img.SongwritingBorder, img.ActingBorder, img.DollywoodBorder {
+  border-radius: 1rem;
+}
+
+/* Page Career - first section Music   */
+.music-item img {
+  margin: 0 0 0 12rem;
+}
+
+.music-item {
+  padding: 0 0 0 3rem;
+}
+
+.music-item p {
+  padding: 0 0 0 4rem;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  color: #260F26;
+}
+
+/* Spotify player  */
+iframe {
+  padding: 0.5rem 0 0 3.5rem;
+}
+
+/* second section Songwriting
+Image styling   */
+.songwriting-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.songwriting-item img {
+  margin: 0 0 0 12rem;
+}
+
+.songwriting-item {
+  padding: 0 0 0 3rem;
+}
+
+.songwriting-item p {
+  padding: 3rem 8rem 0 4rem;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  color: #260F26;
+}
+
+/* third section Acting
+  */
+.acting-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 0 4rem 0;
+}
+
+.acting-item img {
+  margin: 0 0 0 12rem;
+}
+
+.acting-item {
+  padding: 0 0 0 3rem;
+}
+
+.acting-item p {
+  padding: 2rem 8rem 0 4rem;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  color: #260F26;
+}
+
+/* --------Page - Career : End------------*/
+
+/* --------Page - Other Work : Start------------*/
+.imagination-item {
+  font-size: 1rem;
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  color: #260F26;
+  padding: 0 8rem 2rem 8rem;
+}
+
+.dollywood-item {
+  font-size: 1rem;
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  color: #260F26;
+  padding: 0 8rem 2rem 8rem;
+}
+
+.dollywood-item img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 3rem 0;
+}
+
+/* --------Page - Other Work : End------------*/
+/* --------Page - Did You Know  : Start------------*/
+
+/* --------Gallery - Start ------------
+<!-- container set to display flex -->*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.25rem 1rem 0.25rem;
+}
+
+.column img {
+  width: 100%;
+  margin-top: 0.5rem;
+  vertical-align: middle;
+  border-radius: .5rem;
+}
+
+/* Create four equal columns that sits next to each other */
+/*Each column is a flex item of 20% value */
+.column {
+  flex: 20%;
+  padding: 0 0.5rem 1rem 0;
+}
+
+/* --------Gallery - End ------------*/
+
+/* --------Did You Know - Start ------------*/
+.didyouknow-item h2 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 20px;
+  color: #260F26;
+  text-align: center;
+}
+
+.didyouknow-item p {
+  padding: 1rem 0rem 4rem 0rem;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  color: #260F26;
+  text-align: center;
+}
+
+/* --------Did You Know - End ------------*/
+
+/* --------My Hero - Start ------------*/
+.hero-item h2 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 20px;
+  color: #260F26;
+  text-align: center;
+}
+
+.hero-item p {
+  padding: 1rem 0rem 1rem 0rem;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  color: #260F26;
+  text-align: center;
+}
+
+.hero-item iframe {
+  margin: 0.25rem 0 3rem 26rem;
+}
+
+/* --------My Hero - End ------------*/
+
+/* --------Footer - Start ------------*/
+.Footer {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-item a {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem 2rem 1rem;
+  text-decoration: none;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  color: #260F26;
+  text-transform: uppercase;
+}
+
+#footerp {
+  text-align: center;
+  font-family: "Avenir", sans-serif;
+  font-size: 0.5rem;
+  line-height: 2;
+  letter-spacing: 0.15rem;
+  padding: 0 0 4rem 0;
+  color: #260F26;
+}
+
+/* --------Footer - End ------------*/
+
+/* --------MEDIA QUERIES------------*/
+@media screen and (max-width: 500px) {
+
+  /* Navigation  */
+  .nav-container {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 2rem 0;
+  }
+
+  /* Navigation  */
+  .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5,
+  .nav-item6, .nav-item7, .nav-item8 {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Footer  */
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Banner used on:
+    Homepage, About   */
+  #Banner {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Used on Dolly  */
+  .dolly-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Used on Dolly  */
+  .dolly-item img {
+    max-width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+  }
+
+  /* Used on Dolly  */
+  .dolly-item p {
+    padding: 0rem 0rem 0 0rem;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  img.MusicBorder, img.SongwritingBorder, img.ActingBorder {
+    border-radius: 1rem;
+    margin: 0 0 0 2.75rem;
+    padding: 0 0 0 0;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Used on Career  */
+  .music-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .music-item, .songwriting-item, .acting-item, .dollywood-item {
+    padding: 0 0 0 0;
+  }
+
+  /* Used on Career  */
+  .music-item p {
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  /* Used on Career - Spotify  */
+  iframe {
+    display: block;
+    padding: 0 0 1rem 6rem;
+  }
+
+  /* Used on Career - Songwriting */
+  .songwriting-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Used on Career - Songwriting */
+  .songwriting-item p {
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+    font-family: "Avenir";
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  /* Used on Career - Acting */
+  .acting-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Used on Career - Acting */
+  .acting-item p {
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  /* Used on OtherWork - Imagination Library */
+  .imagination-item {
+    font-size: 1rem;
+    font-family: "Avenir", sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    color: #260F26;
+    padding: 0 4rem 2rem 4rem;
+  }
+
+  /* Used on MyHero - Spotify */
+  .hero-item iframe {
+    margin: 0.25rem 0 3rem 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* Navigation  */
+  .nav-container {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 2rem 0;
+  }
+
+  /* Navigation  */
+  .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5,
+  .nav-item6, .nav-item7, .nav-item8 {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Footer  */
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Banner used on:
+        Homepage, About   */
+  #Banner {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Used on Dolly  */
+  .dolly-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Used on Dolly  */
+  .dolly-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Used on Dolly  */
+  .dolly-item p {
+    padding: 0rem 0rem 0 0rem;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  /* Used on Career  */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Used on Career  */
+  .music-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Used on Career  */
+  .music-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Used on Career  */
+  .music-item p {
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  /* Used on Career - Spotify  */
+  iframe {
+    display: block;
+  }
+
+  /* Used on Career - Songwriting */
+  .songwriting-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Used on Career - Songwriting  */
+  .songwriting-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Used on Career - Songwriting */
+  .songwriting-item p {
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  /* Used on Career - Acting */
+  .acting-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Used on Career - Acting  */
+  .acting-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Used on Career - Acting */
+  .acting-item p {
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #260F26;
+  }
+
+  /* Used on OtherWork - Imagination Library */
+  .imagination-item {
+    font-size: 1rem;
+    font-family: "Avenir", sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    color: #260F26;
+    padding: 0 4rem 2rem 4rem;
+  }
+
+  .dollywood-item img {
+    max-width: 100%;
+    height: auto;
+  }
+}
